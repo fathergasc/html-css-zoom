@@ -45,7 +45,7 @@ footer {
 }
 
 .debug main {
-    background-color: blue;
+    background-color: #000;
 }
 
 .debug footer{
@@ -56,4 +56,29 @@ footer {
     background-color: green;
 }
 
-/*debug rules*/
+/* end debug rules*/
+
+
+/* scrollbar rules */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: lightgray
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray;
+  }
+
+  /* end scrollbar rules */
