@@ -7,18 +7,18 @@
 header {
     height: 100px;
     width: 100vw;
-    position: fixed;
-    top: 0;
 }
 
 main {
     width: 100%;
-    padding: 100px;
+    padding: 40px;
+    height: calc(100vh - 200px);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .clearfix:after {
@@ -30,8 +30,6 @@ main {
 footer {
     height: 100px;
     width: 100vw;
-    position: fixed;
-    bottom: 0;
 }
 
 .card {
