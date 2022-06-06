@@ -14,13 +14,30 @@ header {
 main {
     width: 100%;
     padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 footer {
     height: 100px;
     width: 100vw;
     position: fixed;
     bottom: 0;
+}
+
+.card {
+    width: 220px;
+    height: 130px;
+    margin: 10px 4px;
 }
 
 /*debug rules*/
@@ -35,6 +52,10 @@ footer {
 
 .debug footer{
     background-color: red;
+}
+
+.debug .card {
+    background-color: green;
 }
 
 /*debug rules*/
